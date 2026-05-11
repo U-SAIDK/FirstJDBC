@@ -36,8 +36,6 @@ public class Select {
         // executeQuery Method is Used for Select Ops
         ResultSet rs = statement.executeQuery(sql);
 
-
-
         // STEP 6: PROCESS RESULTSET
         // rs.next(); → Moves cursor one row forward
         // → Returns true if row exists
